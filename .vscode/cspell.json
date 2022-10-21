@@ -2,10 +2,26 @@
   "version": "0.2",
   "language": "en",
   "words": [
-    "addn",
+    "consolas", // fonts
+    "lucida",
+    "menlo",
+    "webp", // extensions
+    "addn", // `chance.js`
     "subn",
     "pickone",
     "pickset",
-    "remixd"
+    "struct", // Ethereum
+    "bytecode",
+    "yellowpaper",
+    "erc",
+    "ierc",
+    "vyper",
+    "remixd",
+    "solhint",
+    "mythrill",
+    "plantuml", // PlantUML
+    "startuml",
+    "enduml",
+    "skinparam"
   ]
 }
