@@ -38,5 +38,9 @@
 
   "cSpell.enableFiletypes": [
     "solidity"
-  ]
+  ],
+
+  "plantuml.fileExtensions": ".pu,.puml,.plantuml",
+  "plantuml.exportSubFolder": false,
+  "plantuml.exportOutDir": "."
 }
