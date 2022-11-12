@@ -2,14 +2,17 @@
   "version": "0.2",
   "language": "en",
   "words": [
-    "consolas", // fonts
+    "websocket", // Techonology Geneal
+    "consolas", // Fonts
     "lucida",
     "menlo",
-    "webp", // extensions
-    "addn", // `chance.js`
+    "webp", // Extensions
+    "addn", // `bn.js`
     "subn",
-    "pickone",
+    "pickone", // `chance.js`
     "pickset",
+    "ipfs", // Blockchain
+    "secp256k1",
     "struct", // Ethereum
     "bytecode",
     "yellowpaper",
@@ -22,6 +25,13 @@
     "plantuml", // PlantUML
     "startuml",
     "enduml",
-    "skinparam"
+    "skinparam",
+    "addr", // General Abbreviations
+    "addrs",
+    "contr", // contract
+    "contrs",
+    "descr", // description
+    "fctr", // factory
+    "rslt" // result
   ]
 }
