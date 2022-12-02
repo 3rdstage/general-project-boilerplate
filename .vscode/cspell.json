@@ -21,7 +21,10 @@
     "vyper",
     "remixd",
     "solhint",
-    "mythrill",
+    "Mythril",
+    "MythX",
+    "ConsenSys",
+    "OpenZeppelin",
     "plantuml", // PlantUML
     "startuml",
     "enduml",
