@@ -1,4 +1,6 @@
 {
+  "workbench.editor.revealIfOpen": false,
+
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "editor.acceptSuggestionOnCommitCharacter": false,
