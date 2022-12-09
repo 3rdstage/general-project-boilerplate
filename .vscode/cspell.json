@@ -3,6 +3,7 @@
   "language": "en",
   "words": [
     "websocket", // Techonology Geneal
+    "reentrancy",
     "consolas", // Fonts
     "lucida",
     "menlo",
@@ -11,8 +12,9 @@
     "subn",
     "pickone", // `chance.js`
     "pickset",
-    "ipfs", // Blockchain
+    "keccak", // Blockchain
     "secp256k1",
+    "ipfs",
     "struct", // Ethereum
     "bytecode",
     "yellowpaper",
