@@ -20,6 +20,7 @@
     "yellowpaper",
     "erc",
     "ierc",
+    "inheritdoc",
     "vyper",
     "remixd",
     "solhint",
@@ -28,9 +29,11 @@
     "ConsenSys",
     "OpenZeppelin",
     "plantuml", // PlantUML
+    "skinparam",
     "startuml",
     "enduml",
-    "skinparam",
+    "startmindmap",
+    "endmindmap",
     "addr", // General Abbreviations
     "addrs",
     "contr", // contract
