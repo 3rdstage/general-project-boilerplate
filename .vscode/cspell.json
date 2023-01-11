@@ -15,6 +15,7 @@
     "keccak", // Blockchain
     "secp256k1",
     "ipfs",
+    "soulbound",
     "struct", // Ethereum
     "bytecode",
     "yellowpaper",
