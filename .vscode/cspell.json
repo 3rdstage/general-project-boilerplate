@@ -12,6 +12,10 @@
     "subn",
     "pickone", // `chance.js`
     "pickset",
+    "varchar", // Database, DBMS
+    "varchar2",
+    "innodb", // MySQL
+    "rlike", // MariaDB
     "keccak", // Blockchain
     "secp256k1",
     "ipfs",
