@@ -46,5 +46,22 @@
     "descr", // description
     "fctr", // factory
     "rslt" // result
+  ],
+  "flagWords": [
+    "hte"
+  ],
+  "ignorePaths": ["./.jshintrc"],
+  "patterns": [
+    { "name" : "ipfs-url", "pattern": "/(?:ipfs|http|https)://.*Qm[0-9A-Za-z]*/"}
+  ],
+  "ignoreRegExpList": ["ipfs-url"],
+  "languageSettings": [
+    {
+      "languageId": "python",
+      "allowCompoundWords": true,
+      "dictionaries": [
+        "python"
+      ]
+    }
   ]
 }
