@@ -35,6 +35,8 @@
     "run/besu/data/**": true
   },
 
+  "javascript.validate.enable": true,
+  "typescript.validate.enable": true,
   "jshint.enable" : true,
   "jshint.config": ".jshintrc",
 

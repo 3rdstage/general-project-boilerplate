@@ -2,12 +2,13 @@
   "version": "0.2",
   "language": "en",
   "words": [
-    "websocket", // Techonology Geneal
-    "reentrancy",
     "consolas", // Fonts
     "lucida",
     "menlo",
     "webp", // Extensions
+    "websocket", // Techonology Geneal
+    "reentrancy",
+    "emscripten", // https://emscripten.org/
     "addn", // `bn.js`
     "subn",
     "pickone", // `chance.js`
