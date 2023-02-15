@@ -15,12 +15,17 @@
     "pickset",
     "varchar", // Database, DBMS
     "varchar2",
-    "innodb", // MySQL
-    "rlike", // MariaDB
+    "innodb", // MySQL, MariaDB
+    "curdate",
+    "timestampadd",
+    "rlike",
     "keccak", // Blockchain
     "secp256k1",
     "ipfs",
     "soulbound",
+    "bitcoin",
+    "ethereum",
+    "solana",
     "struct", // Ethereum
     "bytecode",
     "yellowpaper",
