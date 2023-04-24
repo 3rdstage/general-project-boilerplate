@@ -1,4 +1,6 @@
 {
+  // https://streetsidesoftware.com/vscode-spell-checker/docs/configuration/
+
   "version": "0.2",
   "language": "en",
   "words": [
@@ -40,9 +42,9 @@
     "ConsenSys",
     "OpenZeppelin",
     "plantuml", // PlantUML
-    "skinparam",
     "startuml",
     "enduml",
+    "skinparam",
     "startmindmap",
     "endmindmap",
     "addr", // General Abbreviations
@@ -56,7 +58,9 @@
   "flagWords": [
     "hte"
   ],
-  "ignorePaths": ["./.jshintrc"],
+  "enableFiletypes": [
+    "solidity"
+  ],
   "patterns": [
     { "name" : "ipfs-url", "pattern": "/(?:ipfs|http|https)://.*Qm[0-9A-Za-z]*/"}
   ],
@@ -68,6 +72,14 @@
       "dictionaries": [
         "python"
       ]
+    }
+  ],
+  "overrides": [
+    {
+      // https://jshint.com/docs/options/
+      "filename": ".jshintrc",
+      "words": [
+        "esversion", "forin", "latedef", "nofunc", "noarg", "nonew", "quotmark"]
     }
   ]
 }

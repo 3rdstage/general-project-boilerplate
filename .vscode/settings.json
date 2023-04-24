@@ -37,12 +37,16 @@
 
   "javascript.validate.enable": true,
   "typescript.validate.enable": true,
-  "jshint.enable" : true,
+  "javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": false,
+  "typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": false,
+
+  "jshint.enable" : false,
   "jshint.config": ".jshintrc",
 
-  "cSpell.enableFiletypes": [
-    "solidity"
-  ],
+  "tslint.enable": false,
+  "tslint.exclude": "tsconfig.json",
+
+  "eslint.enable": false,
 
   "plantuml.fileExtensions": ".pu,.puml,.plantuml",
   "plantuml.exportSubFolder": false,
