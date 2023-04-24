@@ -28,19 +28,31 @@
     "bitcoin",
     "ethereum",
     "solana",
-    "struct", // Ethereum
-    "bytecode",
-    "yellowpaper",
+    "yellowpaper", // Ethereum
     "erc",
     "ierc",
-    "inheritdoc",
+    "chainid",
+    "ropsten",
+    "rinkeby",
+    "kovan",
+    "goerli",
     "vyper",
+    "inheritdoc",
+    "ganache",
+    "remix",
     "remixd",
     "solhint",
     "Mythril",
     "MythX",
     "ConsenSys",
     "OpenZeppelin",
+    "typechain",
+    "struct", // Solidity
+    "structs",
+    "bytecode",
+    "inheritdoc",
+    "pausable",
+    "mload",
     "plantuml", // PlantUML
     "startuml",
     "enduml",
@@ -61,6 +73,7 @@
   "enableFiletypes": [
     "solidity"
   ],
+  "ignorePaths": [ ],
   "patterns": [
     { "name" : "ipfs-url", "pattern": "/(?:ipfs|http|https)://.*Qm[0-9A-Za-z]*/"}
   ],
