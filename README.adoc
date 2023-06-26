@@ -1,0 +1,13 @@
+// cspell:words sectnums sectnumlevels prewrap imagesdir
+// cspell:ignore kroki highlightjs
+
+= README
+:toc:
+:sectnums:
+:sectnumlevels: 4
+:source-highlighter: highlightjs
+:prewrap!:
+:kroki-fetch-diagram:
+:imagesdir: ./
+
+== Overview
