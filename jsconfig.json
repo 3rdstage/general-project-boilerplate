@@ -8,8 +8,8 @@
     "module": "CommonJS",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "typeRoots": ["node_modules/@types", "./types"],
-    "types": ["node", "chai", "mocha", "chance", "truffle-contracts"],
+    "typeRoots": ["node_modules/@types"],
+    "types": ["node", "bn.js", "chai", "mocha", "chance"],
     "strict": true,
     "alwaysStrict": true,
     "noImplicitThis": true,
@@ -20,6 +20,10 @@
     "lib": ["ES2020"],
     "skipLibCheck": true
   },
-  "include": ["types/**/*.ts", "migrations/**/*.ts", "test/**/*.ts"],
+  "include": [ // https://www.typescriptlang.org/tsconfig#include
+    "types/truffle-artifacts/**/*",
+    "types/hardhat/**/*",
+    "migrations/**/*.ts",
+    "test/**/*.ts"],
   "exclude": ["node_modules", "dist", "build", "cache", "artifacts"]
 }

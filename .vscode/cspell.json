@@ -1,6 +1,8 @@
 {
+  // https://streetsidesoftware.com/vscode-spell-checker/#customization : cspell.json, settings.json
   // https://streetsidesoftware.com/vscode-spell-checker/docs/configuration/
 
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
   "version": "0.2",
   "language": "en",
   "words": [
@@ -67,12 +69,9 @@
     "fctr", // factory
     "rslt" // result
   ],
-  "flagWords": [
-    "hte"
-  ],
-  "enableFiletypes": [
-    "solidity"
-  ],
+  "flagWords": [ "hte" ],
+  "enabledLanguageIds": ["asciidoc"],
+  "enableFiletypes": [ "solidity", "asciidoc"],
   "ignorePaths": [ ],
   "patterns": [
     { "name" : "ipfs-url", "pattern": "/(?:ipfs|http|https)://.*Qm[0-9A-Za-z]*/"}
@@ -82,9 +81,7 @@
     {
       "languageId": "python",
       "allowCompoundWords": true,
-      "dictionaries": [
-        "python"
-      ]
+      "dictionaries": [ "python" ]
     }
   ],
   "overrides": [
@@ -93,6 +90,12 @@
       "filename": ".jshintrc",
       "words": [
         "esversion", "forin", "latedef", "nofunc", "noarg", "nonew", "quotmark"]
+    }
+  ],
+  "dictionaries": ["AsciiDoc"],
+  "dictionaryDefinitions": [
+    {
+      "name": "AsciiDoc", "path": "./cspell/asciidoc.txt", "addWords": true
     }
   ]
 }
