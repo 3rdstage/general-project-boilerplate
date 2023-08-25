@@ -70,13 +70,13 @@
     "rslt" // result
   ],
   "flagWords": [ "hte" ],
-  "enabledLanguageIds": ["asciidoc"],
-  "enableFiletypes": [ "solidity", "asciidoc"],
   "ignorePaths": [ ],
   "patterns": [
     { "name" : "ipfs-url", "pattern": "/(?:ipfs|http|https)://.*Qm[0-9A-Za-z]*/"}
   ],
   "ignoreRegExpList": ["ipfs-url"],
+  "enabledLanguageIds": ["asciidoc"],
+  "enableFiletypes": [ "solidity", "asciidoc"],
   "languageSettings": [
     {
       "languageId": "python",
