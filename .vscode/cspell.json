@@ -23,56 +23,11 @@
     "curdate",
     "timestampadd",
     "rlike",
-    "keccak", // Blockchain
-    "secp256k1",
-    "ipfs",
-    "soulbound",
-    "bitcoin",
-    "ethereum",
-    "solana",
-    "yellowpaper", // Ethereum
-    "erc",
-    "ierc",
-    "chainid",
-    "ropsten",
-    "rinkeby",
-    "kovan",
-    "goerli",
-    "vyper",
-    "inheritdoc",
-    "ganache",
-    "remix",
-    "remixd",
-    "solhint",
-    "Mythril",
-    "MythX",
-    "ConsenSys",
-    "OpenZeppelin",
-    "typechain",
-    "struct", // Solidity
-    "structs",
-    "bytecode",
-    "inheritdoc",
-    "pausable",
-    "mload",
-    "plantuml", // PlantUML
-    "startuml",
-    "enduml",
-    "skinparam",
-    "startmindmap",
-    "endmindmap",
-    "addr", // General Abbreviations
-    "addrs",
-    "contr", // contract
-    "contrs",
-    "descr", // description
-    "fctr", // factory
-    "rslt" // result
   ],
   "flagWords": [ "hte" ],
   "ignorePaths": [ ],
   "patterns": [
-    { "name" : "ipfs-url", "pattern": "/(?:ipfs|http|https)://.*Qm[0-9A-Za-z]*/"}
+    { "name" : "ipfs-url", "pattern": "/(?:ipfs|http|https)://.*Qm[0-9A-Za-z]*/" }
   ],
   "ignoreRegExpList": ["ipfs-url"],
   "enabledLanguageIds": ["asciidoc"],
@@ -92,10 +47,12 @@
         "esversion", "forin", "latedef", "nofunc", "noarg", "nonew", "quotmark"]
     }
   ],
-  "dictionaries": ["AsciiDoc"],
+  "dictionaries": ["abbrev", "software", "hardware", "asciidoc", "web3"],
   "dictionaryDefinitions": [
-    {
-      "name": "AsciiDoc", "path": "./cspell/asciidoc.txt", "addWords": true
-    }
+    { "name": "abbrev", "path": "./cspell/abbrev.txt", "addWords": true },
+    { "name": "software", "path": "./cspell/software.txt", "addWords": true },
+    { "name": "hardware", "path": "./cspell/hardware.txt", "addWords": true },
+    { "name": "asciidoc", "path": "./cspell/asciidoc.txt", "addWords": true },
+    { "name": "web3", "path": "./cspell/web3.txt", "addWords": true }
   ]
 }
