@@ -5,6 +5,7 @@
 :sectnumlevels: 4
 :source-highlighter: highlightjs
 :prewrap!:
+:icons: font
 :kroki-fetch-diagram:
 :imagesdir: ./
 

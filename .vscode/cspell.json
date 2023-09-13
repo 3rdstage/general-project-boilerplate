@@ -16,13 +16,7 @@
     "addn", // `bn.js`
     "subn",
     "pickone", // `chance.js`
-    "pickset",
-    "varchar", // Database, DBMS
-    "varchar2",
-    "innodb", // MySQL, MariaDB
-    "curdate",
-    "timestampadd",
-    "rlike",
+    "pickset"
   ],
   "flagWords": [ "hte" ],
   "ignorePaths": [ ],

@@ -10,3 +10,13 @@ endmindmap
 startwbs
 endwbs
 skinparam
+
+# Database
+varchar
+varchar2
+
+# MySQL, MariaDB
+innodb
+curdate
+timestampadd
+rlike
