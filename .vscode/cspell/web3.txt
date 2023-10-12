@@ -14,8 +14,11 @@ typechain
 keccak
 secp256k1
 yellowpaper
+hardfork
 erc
 ierc
+ibft
+qbft
 soulbound
 chainid
 ropsten
