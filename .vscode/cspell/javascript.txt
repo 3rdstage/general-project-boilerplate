@@ -1,0 +1,11 @@
+# https://cspell.org/docs/dictionaries-custom/
+
+# bn.js (https://github.com/indutny/bn.js/)
+addn
+subn
+
+
+# chance.js (https://chancejs.com/)
+pickone
+pickset
+
