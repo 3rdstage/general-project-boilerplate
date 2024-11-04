@@ -20,3 +20,7 @@ innodb
 curdate
 timestampadd
 rlike
+
+# PostgreSQL
+localtimestamp
+localtime
