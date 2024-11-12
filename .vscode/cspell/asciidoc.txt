@@ -1,8 +1,13 @@
 # https://cspell.org/docs/dictionaries-custom/
+toclevels
 sectnums
 sectnumlevels
+sectanchors
+docinfo
 prewrap
 imagesdir
 autowidth
 kroki
 highlightjs
+latexmath
+noheader

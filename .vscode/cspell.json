@@ -1,6 +1,10 @@
 {
+  // https://streetsidesoftware.github.io/cspell/
   // https://streetsidesoftware.com/vscode-spell-checker/#customization : cspell.json, settings.json
-  // https://streetsidesoftware.com/vscode-spell-checker/docs/configuration/
+  // https://streetsidesoftware.com/vscode-spell-checker/docs/configuration
+  // https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+
+  // The settings in cspell.json will override the equivalent cSpell settings in VS Code's settings.json.
 
   "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
   "version": "0.2",
@@ -22,6 +26,7 @@
   "ignoreRegExpList": ["ipfs-url"],
   "enabledLanguageIds": ["asciidoc"],
   "enableFiletypes": [ "solidity", "asciidoc"],
+  "import": ["@cspell/dict-latex/cspell-ext.json"],
   "languageSettings": [
     {
       "languageId": "python",
