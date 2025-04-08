@@ -25,7 +25,7 @@
   ],
   "ignoreRegExpList": ["ipfs-url"],
   "enabledLanguageIds": ["asciidoc"],
-  "enableFiletypes": [ "solidity", "asciidoc"],
+  "enableFiletypes": [ "java", "javascript", "typescript", "json", "markdown", "asciidoc" ],
   "import": ["@cspell/dict-latex/cspell-ext.json"],
   "languageSettings": [
     {
@@ -48,6 +48,7 @@
     { "name": "software", "path": "./cspell/software.txt", "addWords": true },
     { "name": "hardware", "path": "./cspell/hardware.txt", "addWords": true },
     { "name": "asciidoc", "path": "./cspell/asciidoc.txt", "addWords": true },
+    { "name": "latex-ext", "path": "./cspell/latex-ext.txt", "addWords": true },
     { "name": "javascript", "path": "./cspell/javascript.txt", "addWords": true},
     { "name": "web3", "path": "./cspell/web3.txt", "addWords": true }
   ]

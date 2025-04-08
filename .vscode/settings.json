@@ -48,7 +48,14 @@
 
   "eslint.enable": true,
 
+  "asciidoc.extensions.enableKroki": true,
+  "asciidoc.preview.refreshInterval": 2000,
+  "asciidoc.preview.scrollPreviewWithEditor": true,
+  "asciidoc.preview.scrollEditorWithPreview": false,
+
   "plantuml.fileExtensions": ".pu,.puml,.plantuml",
   "plantuml.exportSubFolder": false,
-  "plantuml.exportOutDir": "."
+  "plantuml.exportOutDir": ".",
+
+  "latex-workshop.latex.outDir": "%DIR%/output"
 }

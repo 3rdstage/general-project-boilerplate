@@ -9,5 +9,6 @@ imagesdir
 autowidth
 kroki
 highlightjs
+iconfont
 latexmath
 noheader
