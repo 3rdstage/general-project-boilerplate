@@ -48,6 +48,9 @@
 
   "eslint.enable": true,
 
+  "cSpell.enabled": true,
+  "cSpell.checkOnlyEnabledFileTypes" : true,
+
   "asciidoc.extensions.enableKroki": true,
   "asciidoc.preview.refreshInterval": 2000,
   "asciidoc.preview.scrollPreviewWithEditor": true,
@@ -57,5 +60,70 @@
   "plantuml.exportSubFolder": false,
   "plantuml.exportOutDir": ".",
 
-  "latex-workshop.latex.outDir": "%DIR%/output"
+  "latex-workshop.latex.outDir": "%DIR%/build",
+  "latex-workshop.latex.recipe.default" : "svg",
+  // https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-recipes
+  "latex-workshop.latex.recipes": [
+    { "name": "pdf", "tools": [ "pdflatex" ] },
+    { "name": "svg", "tools": [ "latex", "dvisvgm"] },
+    { "name": "svg2", "tools": [ "lualatex", "dvisvgm"] }
+  ],
+  // https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-tools
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk",
+      "command": "latexmk",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "-outdir=%OUTDIR%",
+        "%DOC%"
+      ],
+      "env": {}
+    },
+    {
+      "name": "latex",
+      "command": "latex", // https://linux.die.net/man/1/tex
+      "args": [
+        "-file-line-error",
+        "-halt-on-error",
+        "-output-directory=%OUTDIR%",
+        "%DOCFILE%"
+      ]
+    },
+    {
+      "name": "lualatex",
+      "command": "lualatex",
+      "args": [
+        "--output-format=dvi",
+        "--output-directory=%OUTDIR%",
+        "%DOCFILE%"
+      ]
+    },
+    {
+      "name": "pdflatex",
+      "command": "pdflatex", // https://linux.die.net/man/1/pdflatex
+      "args": [
+        "-shell-escape",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-output-directory=%OUTDIR%",
+        "%DOC%.tex"
+      ]
+    },
+    {
+      // https://tikz.dev/drivers#sec-10.2.4
+      "name": "dvisvgm",
+      "command": "dvisvgm", // https://dvisvgm.de/Manpage/
+      "args": [
+        // "--no-fonts",
+        "--font-format=woff2", // woff | woff,autohint | woff2 | woff2,autohint
+        "--verbosity=4",
+        "%OUTDIR%/%DOCFILE%"
+      ]
+    }
+  ]
 }
