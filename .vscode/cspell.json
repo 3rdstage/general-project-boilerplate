@@ -28,6 +28,7 @@
     "consolas", // Fonts
     "lucida",
     "menlo",
+    "circumcircle", // Geometry
     "webp", // Extensions
     "websocket", // Techonology Geneal
     "reentrancy",

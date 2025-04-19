@@ -1,7 +1,11 @@
 {
+  // https://code.visualstudio.com/docs/reference/default-settings
+
   "workbench.editor.revealIfOpen": false,
 
+
   "editor.tabSize": 2,
+  "editor.indentSize": "tabSize",
   "editor.detectIndentation": false,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.snippetSuggestions": "bottom",
@@ -16,8 +20,8 @@
   "files.trimTrailingWhitespace": true,
 
   "files.exclude": {
-    "node_modules/**": true,
-    ".pytest_cache": true,
+    "**/node_modules/*/**": true,
+    "**/.pytest_cache": true,
     "run/ganache/data": true,
     "run/geth/data": true,
     "run/besu/data": true
@@ -27,12 +31,19 @@
     "**/.git/objects/**": true,
     "**/.git/subtree-cache/**": true,
     "**/.hg/store/**": true,
-    "**/node_modules/*/**": true,
+    "**/node_modules/**": true,
+    "**/.pytest_cache/**": true,
     "contracts/**/artifacts/**": true,
     "types/truffle-contracts/**": true,
     "run/ganache/data/**": true,
     "run/geth/data/**": true,
     "run/besu/data/**": true
+  },
+
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true
   },
 
   "javascript.validate.enable": false,
