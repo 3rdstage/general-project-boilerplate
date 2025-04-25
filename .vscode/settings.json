@@ -3,7 +3,7 @@
 
   "workbench.editor.revealIfOpen": false,
 
-
+  "editor.fontSize": 18,
   "editor.tabSize": 2,
   "editor.indentSize": "tabSize",
   "editor.detectIndentation": false,
@@ -62,10 +62,19 @@
   "cSpell.enabled": true,
   "cSpell.checkOnlyEnabledFileTypes" : true,
 
+  "markdown.preview.fontSize": 16,
+
+  //https://marketplace.visualstudio.com/items/?itemName=asciidoctor.asciidoctor-vscode
   "asciidoc.extensions.enableKroki": true,
+  "asciidoc.preview.fontSize": 16,
   "asciidoc.preview.refreshInterval": 2000,
   "asciidoc.preview.scrollPreviewWithEditor": true,
   "asciidoc.preview.scrollEditorWithPreview": false,
+  "asciidoc.preview.asciidoctorAttributes": {
+    //"plantuml-server-url": "http://plantuml.com/plantuml",
+    // https://docs.kroki.io/kroki/setup/install/
+    //"kroki-server-url": "https://kroki.io"  // "stayAwayFromKrokiIO"
+  },
 
   "plantuml.fileExtensions": ".pu,.puml,.plantuml",
   "plantuml.exportSubFolder": false,

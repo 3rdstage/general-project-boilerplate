@@ -24,3 +24,10 @@ rlike
 # PostgreSQL
 localtimestamp
 localtime
+
+# Tools
+intellij
+Spring Initializr
+
+# Middleware
+keycloak   # https://www.keycloak.org/
