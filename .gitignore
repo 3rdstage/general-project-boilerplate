@@ -36,6 +36,8 @@ CVS/
 .atp_generated_tests/
 /artifacts/
 /types/
+diag-*.png
+diag-*.svg
 
 # runtime outputs
 /run/

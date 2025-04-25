@@ -22,8 +22,10 @@
 :iconfont-cdn: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css
 :stem: latexmath
 
-//:!kroki-fetch-diagram:
-//:kroki-server-url: https://kroki.io
+// https://github.com/asciidoctor/asciidoctor-kroki
+// :kroki-fetch-diagram: true
+// :kroki-default-format: svg
+// :kroki-server-url: https://kroki.io
 //:plantuml-server-url: "http://plantuml.com/plantuml"
 
 
