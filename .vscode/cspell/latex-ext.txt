@@ -1,6 +1,9 @@
 # https://cspell.org/docs/dictionaries-custom/
 # additional LaTeX dictionary containing names and commands from popular packages
 
+darkgray       # https://en.wikibooks.org/wiki/LaTeX/Colors
+lightgray      # https://en.wikibooks.org/wiki/LaTeX/Colors
+
 amsmath        # https://ctan.org/pkg/amsmath
 amssymb
 nccmath        # https://ctan.org/pkg/nccmath

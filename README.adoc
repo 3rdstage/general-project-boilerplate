@@ -1,5 +1,6 @@
 
 = README
+// https://docs.asciidoctor.org/asciidoc/latest/attributes/document-attributes-ref/
 :toc:
 :toclevels: 2
 :toc-title: Contents
@@ -9,9 +10,9 @@
 :max-width: 1200px
 :table-frame: ends
 :table-stripes: none
-:imagesdir: ./
 :docinfo: shared-head
 :docinfodir: ./
+:imagesdir: ./
 :source-highlighter: highlightjs
 :source-indent: 2
 :highlightjs-theme: github
@@ -25,8 +26,9 @@
 // https://github.com/asciidoctor/asciidoctor-kroki
 // :kroki-fetch-diagram: true
 // :kroki-default-format: svg
+// :kroki-default-options: inline
 // :kroki-server-url: https://kroki.io
-//:plantuml-server-url: "http://plantuml.com/plantuml"
+// :plantuml-server-url: "http://plantuml.com/plantuml"
 
 
 == Overview
