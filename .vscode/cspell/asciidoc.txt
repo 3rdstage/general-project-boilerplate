@@ -13,6 +13,7 @@ highlightjs
 iconfont
 latexmath
 noheader
+noautowidth
 
 # Asciidoc default stylesheet
 # https://github.com/asciidoctor/asciidoctor/blob/v2.0.x/src/stylesheets/asciidoctor.css

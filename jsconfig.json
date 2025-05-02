@@ -1,23 +1,28 @@
 {
+  // https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
   // https://www.typescriptlang.org/tsconfig
   // https://code.visualstudio.com/docs/languages/jsconfig
   // https://github.com/microsoft/TypeScript/wiki/JavaScript-Language-Service-in-Visual-Studio
 
   "compilerOptions": {
     "target": "es2020",
-    "module": "CommonJS",
+    //"module": "CommonJS",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "typeRoots": ["node_modules/@types"],
+    "typeRoots": ["node_modules/@types"], // https://www.typescriptlang.org/tsconfig/#typeRoots
     "types": ["node", "bn.js", "chai", "mocha", "chance"],
     "strict": true,
     "alwaysStrict": true,
     "noImplicitThis": true,
     "noImplicitAny": true,
+    "declaration": true,
+    "declarationDir": "public/types",
+    "emitDeclarationOnly": false,
     "sourceMap": true,
     "allowJs": true,
     "esModuleInterop": true,
-    "lib": ["ES2020"],
+    "lib": ["ES2020", "DOM", "DOM.Iterable"], // https://www.typescriptlang.org/tsconfig/#lib
+    "jsx": "react", //https://www.typescriptlang.org/tsconfig/#jsx
     "skipLibCheck": true
   },
   "include": [ // https://www.typescriptlang.org/tsconfig#include
@@ -25,5 +30,5 @@
     "types/hardhat/**/*",
     "migrations/**/*.ts",
     "test/**/*.ts"],
-  "exclude": ["node_modules", "dist", "build", "cache", "artifacts"]
+  "exclude": ["node_modules", "dist", "build", "cache", "artifacts", "rollup.config.js"]
 }

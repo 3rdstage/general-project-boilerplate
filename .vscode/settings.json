@@ -19,12 +19,16 @@
   "files.eol": "\n",
   "files.trimTrailingWhitespace": true,
 
+  // https://code.visualstudio.com/docs/editor/glob-patterns#_special-cases
   "files.exclude": {
     "**/node_modules/*/**": true,
     "**/.pytest_cache": true,
     "run/ganache/data": true,
     "run/geth/data": true,
-    "run/besu/data": true
+    "run/besu/data": true,
+    //"**/diag-*.svg": true,
+    //"**/diag-*.png": true,
+
   },
 
   "files.watcherExclude": {
@@ -37,7 +41,9 @@
     "types/truffle-contracts/**": true,
     "run/ganache/data/**": true,
     "run/geth/data/**": true,
-    "run/besu/data/**": true
+    "run/besu/data/**": true,
+    "**/diag-*.svg": true,
+    "**/diag-*.png": true
   },
 
   "search.exclude": {
