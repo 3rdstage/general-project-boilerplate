@@ -1,16 +1,20 @@
 # https://cspell.org/docs/dictionaries-custom/
 # additional LaTeX dictionary containing names and commands from popular packages
 
+infty          # infinity symbol
+
 darkgray       # https://en.wikibooks.org/wiki/LaTeX/Colors
 lightgray      # https://en.wikibooks.org/wiki/LaTeX/Colors
 
 amsmath        # https://ctan.org/pkg/amsmath
-amssymb
+amssymb        #
+mathtools      # https://www.ctan.org/pkg/mathtools
 nccmath        # https://ctan.org/pkg/nccmath
 xfrac          # https://ctan.org/pkg/xfrac : provide flexible split-level fractions
 lipsum         # https://www.ctan.org/pkg/lipsum :  gives you easy access to 150 paragraphs of the Lorem Ipsum dummy text
 
 boldsymbol
+dcases         # display style cases
 
 semithick      # TikZ
 topaths        # TikZ library https://tikz.dev/library-edges#autosec-6522

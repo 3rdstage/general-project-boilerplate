@@ -16,6 +16,7 @@
 :source-highlighter: highlightjs
 :source-indent: 2
 :highlightjs-theme: github
+:highlightjs-languages: asciidoc, latex
 :!prewrap:
 :icons: font
 :iconfont-name: font-awesome
@@ -30,5 +31,17 @@
 // :kroki-server-url: https://kroki.io
 // :plantuml-server-url: "http://plantuml.com/plantuml"
 
+[pass]
+++++
+<style type="text/tailwindcss">
+  /*
+  https://www.w3.org/TR/selectors-3/#selectors (CSS3 Selectors)
+  https://tailwindcss.com/docs/break-after
+  https://tailwindcss.com/docs/break-before
+  */
+
+  h3 { @apply flex p-2 rounded-lg bg-blue-500 text-white text-xl; }
+</style>
+++++
 
 == Overview

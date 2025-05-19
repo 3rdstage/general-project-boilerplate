@@ -1,3 +1,8 @@
+<!--
+cspell:words tableblock
+cspell:ignore
+-->
+
 <!-- Using TailwindCSS(https://tailwindcss.com/) -->
 <!-- https://tailwindcss.com/docs/installation/play-cdn -->
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -5,29 +10,35 @@
 
 <!-- Shared head docinfo file for Asciidoc -->
 <!-- https://docs.asciidoctor.org/asciidoc/latest/docinfo/#head -->
-<style>
+<style type="text/tailwindcss">
 
-h3 {
-  margin-top: 1em;
-}
+  /*
+  https://www.w3.org/TR/selectors-3/#selectors (CSS3 Selectors)
+  https://tailwindcss.com/docs/break-after
+  https://tailwindcss.com/docs/break-before
+  */
 
-h4 {
-  margin-top: 2em;
-}
+  /* revert default list bullet style */
+  /* https://github.com/tailwindlabs/tailwindcss.com/issues/850 */
+  ul, ol { list-style: revert; }
 
-.listingblock pre.highlightjs {
-  font-size: larger;
-  border-style: dotted;
-  border-width: thin;
-  margin-left: 15px;
-}
+  h2, h3, h4, h5, h6 { @apply break-after-avoid-page text-black font-bold; }
 
-/* revert default list bullet style */
-/* https://github.com/tailwindlabs/tailwindcss.com/issues/850 */
-@layer base {
-  ul, ol {
-    list-style: revert;
+  h2 { @apply break-before-page text-4xl; }
+  /* h2:nth-of-type(1) { @apply break-before-avoid-page; } */
+  h3 { @apply text-3xl mt-4; }
+  h4 { @apply text-2xl mt-8; }
+
+
+  table.tableblock { @apply ml-6; }
+  td.tableblock { @apply py-8; }
+
+  .listingblock pre.highlightjs {
+    font-size: larger;
+    border-style: dotted;
+    border-width: thin;
+    margin-left: 15px;
   }
-}
+
 </style>
 
