@@ -1,3 +1,6 @@
+// cspell:dictionaries
+// cspell:words tableblock
+// cspell:ignore
 
 = README
 // https://docs.asciidoctor.org/asciidoc/latest/attributes/document-attributes-ref/
@@ -8,16 +11,16 @@
 :sectnumlevels: 5
 :sectanchors:
 :max-width: 1200px
-:table-frame: ends
-:table-stripes: none
 :docinfo: shared-head
 :docinfodir: ./
 :imagesdir: ./
+:!prewrap:
+:table-frame: ends
+:table-stripes: none
 :source-highlighter: highlightjs
 :source-indent: 2
 :highlightjs-theme: github
-:highlightjs-languages: asciidoc, latex
-:!prewrap:
+:highlightjs-languages: latex, asciidoc, adoc
 :icons: font
 :iconfont-name: font-awesome
 :iconfont-remote:
@@ -36,11 +39,18 @@
 <style type="text/tailwindcss">
   /*
   https://www.w3.org/TR/selectors-3/#selectors (CSS3 Selectors)
-  https://tailwindcss.com/docs/break-after
-  https://tailwindcss.com/docs/break-before
+  https://tailwindcss.com/docs/
   */
 
   h3 { @apply flex p-2 rounded-lg bg-blue-500 text-white text-xl; }
+  table.tableblock { @apply ml-6; }
+
+  .listingblock pre.highlightjs {
+    font-size: larger;
+    border-style: dotted;
+    border-width: thin;
+    margin-left: 15px;
+  }
 </style>
 ++++
 

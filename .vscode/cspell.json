@@ -28,8 +28,9 @@
     "consolas", // Fonts
     "lucida",
     "menlo",
-    "circumcircle", // Geometry
-    "excircle",
+    "incircle",     // Geometry, inscribed circle
+    "circumcircle", // Geometry, circumscribed circle
+    "excircle",     // Geometry, escribed circle
     "excenter",
     "webp", // Extensions
     "ITCEN"  // Local Companies
