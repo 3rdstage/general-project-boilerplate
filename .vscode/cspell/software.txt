@@ -1,5 +1,10 @@
 # https://cspell.org/docs/dictionaries-custom/
 
+# Java
+jdbc
+hikaricp https://github.com/brettwooldridge/HikariCP
+mybatis
+
 # PlantUML (https://plantuml.com/)
 plantuml
 startuml
@@ -39,3 +44,4 @@ reentrancy
 websocket
 pandoc     # https://pandoc.org/
 goldmark   # https://github.com/yuin/goldmark
+keepalive  # TCP Keepalive
